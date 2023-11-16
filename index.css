@@ -1,9 +1,15 @@
 :root {
     --primary-text: rgb(0, 25, 36);
-    --primary-bg: #F6F5F5 !important;
+    --primary-bg: white !important;
     --secondary-text: #0DCAF0 !important;
-    --secondary-bg: white;
-    --btn-shadow: rgba(5, 3, 3, 0.271);
+    --secondary-bg: #F6F5F5;
+}
+
+body{
+    color: var(--primary-text);
+    background-color: var(--primary-bg);
+    margin: 0;
+    padding: 0;
 }
 
 /* CONTANTS */
@@ -13,7 +19,7 @@
 
 
 .x-bg-secondary {
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
 }
 
 
