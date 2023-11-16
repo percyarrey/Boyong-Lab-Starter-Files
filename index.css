@@ -1,0 +1,21 @@
+:root {
+    --primary-text: rgb(0, 25, 36);
+    --primary-bg: #F6F5F5 !important;
+    --secondary-text: #0DCAF0 !important;
+    --secondary-bg: white;
+    --btn-shadow: rgba(5, 3, 3, 0.271);
+}
+
+/* CONTANTS */
+.x-text-secondary{
+    color: var(--secondary-text);
+}
+
+
+.x-bg-secondary {
+    background-color: var(--primary-bg);
+}
+
+
+/* HEADER */
+
